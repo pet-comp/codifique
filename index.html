@@ -1,7 +1,87 @@
+<!DOCTYPE html>
 <html>
-	<head>
-		<script src = "codigo.js"> </script>
-	</head>
-	<body>
-	</body>
+    <head>
+        <meta charset="utf-8">
+        <style>
+            body{
+                font-family: 'Courier New', Courier, monospace;
+                color: greenyellow;
+                background-image: url("./images/pong.gif");
+                background-size: cover;
+            }
+            #head{
+                background-color: honeydew;
+                padding: 10px;
+                margin: 50px;
+            }
+            #turmas{
+                display: flex;
+                align-content: flex-start;
+                align-items: center;
+            }
+            ul.alunos{
+                border-style: solid;
+                border-color: greenyellow;
+            }
+            img:not(#head){
+                height: 350px;
+                width: 450px;
+            }
+            div{
+                border-style: groove;
+                border-color: greenyellow;
+                padding: 50px;
+            }
+            div#turmas{
+                border-style: none;
+            }
+            h1{
+                padding: 50px; 
+            }
+            p{
+                padding-left: 50px;
+            }
+            a:link{
+                color: yellow;
+            }
+            a:visited{
+                color: green;
+            }
+            #turma1 + #turma2{
+                margin-left: 15px;
+            }
+        </style>
+        <title>2019.2</title>
+    </head>
+    <body>
+        <img src="./images/codifique.png" alt="not-found" id="head">
+        <h1>Projeto Codifique</h1>
+        <p>O codifique é um projeto que visa abrir os horizontes dos alunos do ensino médio com relação à programação. Durante o curso, os alunos aprenderam sobre estruturas básicas</p>
+        <p>da programação e desenvolveram uma versão do clássico jogo PONG. Tudo criado exclusivamente por eles sob a orientação dos nossos monitores. Aqui, os alunos e seus familiares</p>
+        <p>e amigos podem ver os frutos de seus trabalhos durante o semestre:</p>
+        <div id="turmas">
+            <div id="turma1">
+                <img src="./images/turma1.jpg" alt="not-found">
+                <ul class="alunos">
+                    <caption>Turma 1 (quartas-feiras)</caption>
+                    <li><a href="./alunos/aluno1/index.html">aluno1</a></li>
+                    <li><a href="./alunos/aluno1/index.html">aluno2</a></li>
+                    <li><a href="./alunos/aluno1/index.html">aluno3</a></li>
+                </ul>
+            </div>
+            <div id="turma2">
+                <img src="./images/turma2.jpg" alt="not-found">
+                <ul class="alunos">
+                    <caption>Turma 2 (quintas-feiras)</caption>
+                    <li><a href="./alunos/aluno1/index.html">aluno1</a></li>
+                    <li><a href="./alunos/aluno1/index.html">aluno2</a></li>
+                    <li><a href="./alunos/aluno1/index.html">aluno3</a></li>
+                </ul>
+            </div>
+        </div>
+        <h2>Links úteis:</h2>
+        <ul>
+            <li><a href="https://www.pointerpointer.com/" target="_blank">something</a></li>
+        </ul>
+    </body>
 </html>
